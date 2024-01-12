@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+/* *{ */
+  /* margin: 0; */
+  /* padding: 0; */
+  /* box-sizing: border-box; */
+/* } */
+
+body{
+  background-color: rgb(80, 63, 177);
+  font:normal 15pt arial;
+  color:white
+}

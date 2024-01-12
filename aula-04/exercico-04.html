@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body{
+      font: normal 2rem Arial;
+    }
+
+  </style>
+</head>
+<body>
+
+
+  <script>
+    let nome = window.prompt('Qual é seu Nome?')
+    document.write(` Ola, <strong>${nome}</strong>! Seu nome tem ${nome.length} letras.<br/>`)
+    document.write(` Seu nome em maiúsculas é ${nome.toUpperCase()}<br/>`)
+    document.write(` Seu nome em minúsculas é ${nome.toLowerCase()}`)
+    // CASO QUEIRA QUEBRAR LINHA USE A TAG BR OU  use no começo do codigo exemplo; document.writeln 
+    // length seve para mostra quantos caracteres a string tem
+    // toUpperCase tudo para maiúculas
+    // toLowerCase tudo para letras minusculas
+  </script>
+</body>
+</html>

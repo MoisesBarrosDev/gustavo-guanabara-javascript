@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../aula-02/style-02.css">
+  <title>Meu primeiro progama..3</title>
+</head>
+
+<body>
+  <h1>Ola mundo!</h1>
+  <p>Já me livrei da Maldição!</p>
+  <script>
+    // nesse codigo abaixo estou fazendo a conversão de uma string para um number , tem que colocar um ( ) dentro de outro ( ) como esá abaixo
+    // parseInt sgnifica numero inteiro exemplo 10 + 5 = 20
+    // parseFloat sgnifica numero real exemplo 5 + 6.5 = 11.5
+    //window.prompt é string
+    // number.parsefloat = para fazer a conversao do prompt para um numero real
+    // posso usar só a tag Number que ai o propio JS se vira para saber se é real,inteiro. exemplo abaixo
+    // let n1 = Number(window.prompt ('Digite um Número : '))
+    // let n2 = Number(window.prompt ('Digite outro Número : '))
+    // caso eu queira transformar o numero em uma string é so eu colocar no lugar do Number, o nome String exemplo abixo
+    // window.alert ('a soma dos valores é ' + String((s))
+    let n1 = Number.parseFloat(window.prompt('Digite um Número : '))
+    let n2 = Number.parseFloat(window.prompt('Digite outro Número : '))
+    let s = n1 + n2
+    window.alert(`A  soma  entre ${n1} e ${n2} é igual a ${s}`)
+    // (number + number) serve para adição 
+    // (string + string) serve para a concatenação
+    // ${n1} e ${n2} templete string
+  </script>
+
+
+
+</body>
+
+</html>
