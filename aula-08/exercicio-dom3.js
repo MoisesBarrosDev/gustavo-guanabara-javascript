@@ -6,7 +6,7 @@ function somar() {
     let n1 = Number(txtn1.value)
     let n2 = Number(txtn2.value)
     let s = n1 + n2
-    res.innerHTML = `A soma entre ${n1} e ${n2} é igual a :  <strong>${s}<strong> `
+    res.innerHTML = ` A soma entre ${n1} e ${n2} é igual a :  <strong>${s}<strong> `
 
 }
 
